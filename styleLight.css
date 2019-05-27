@@ -1,0 +1,39 @@
+
+#wrapper {
+  overflow: hidden;
+}
+
+.main-head {
+  background-color: pink;
+}
+
+.main-nav{
+  background-color: lightpink;
+}
+
+.main-content {
+  background-color: white;
+}
+
+.main-figure {
+  background-color: white;
+}
+
+.main-text {
+  background-color: #ffe9ec;
+  border: 1px solid yellow;
+}
+
+.main-textBig{
+  background-color: #ffe9ec;
+  border: 1px solid yellow;
+}
+
+.main-footer {
+  background-color: pink;
+}
+
+h1, h2, h3, h4 {
+text-align: center;
+color: purple;
+}

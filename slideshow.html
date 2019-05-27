@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang=sv>
+    <head>
+        <meta charset="utf-8">
+        <title>Inlämning 1 Bildspel</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="styleOG.css" rel="stylesheet" id = "pageTheme" type = "text/css">
+    </head>
+
+    <body>
+      <div class = "container">
+      <header class = "main-head">
+        <h1>Inlämning 1 Bildspel</h1>
+      </header>
+
+      <nav class = "main-nav">
+        <button type="button" id="add-item"><img src = "menuicon.png" alt = "Menu Button" class = "small"></button>
+        <div class = "site-menu hidden-sm">
+          <ul class = "page-list">
+            <li class = "page"><a href= "index.html"> Start </a></li>
+            <li class = "page"><a href = "movies.html"> Filmer </a></li>
+            <li class = "page"><a href = "slideshow.html"> Bildspel </a></li>
+            <li class = "page">   <select id = "themeMenu" onChange="saveValue()">
+                <option value = "styleOG.css"> Gräs </option>
+                <option value = "styleDark.css"> Moln  </option>
+                <option value = "styleLight.css"> Godis </option>
+              </select>
+            </li>
+          </ul>
+
+
+      </div>
+      </nav>
+
+      <main class = "main-content">
+        <h2>
+        Bildspel
+        </h2>
+
+
+          <album class = "pic-album">
+
+            <photo>
+              <picNumber> 1/6 </picNumber>
+              <img src = "bane.jpg" style = "width:100%" alt = "Bane">
+              <picCaption> Bane </picCaption>
+            </photo>
+
+            <photo>
+              <picNumber> 2/6 </picNumber>
+              <img src = "boondock.jpg" style = "width:100%" alt = "Boondock">
+              <picCaption> Boondock Saints </picCaption>
+            </photo>
+
+            <photo>
+              <picNumber> 3/6 </picNumber>
+              <img src = "kopps.jpg" style = "width:100%" alt = "Kopps">
+              <picCaption> Kopps </picCaption>
+            </photo>
+
+            <photo>
+              <picNumber> 4/6 </picNumber>
+              <img src = "basterds.jpg" style = "width:100%" alt = "Inglorious Basterds">
+              <picCaption> Inglorious Basterds </picCaption>
+            </photo>
+
+            <photo>
+              <picNumber> 5/6 </picNumber>
+              <img src = "Moulin.jpg" style = "width:100%" alt = "Moulin rouge">
+              <picCaption> Moulin Rouge </picCaption>
+            </photo>
+
+            <photo>
+              <picNumber> 6/6 </picNumber>
+              <img src = "thebest.jpg" style = "width:100%" alt = "Marigold Hotel">
+              <picCaption> Best Exotic Marigold Hotel </picCaption>
+            </photo>
+
+
+          </album>
+
+      </main>
+
+      <footer class = "main-footer">
+        <h3>
+          Sara Dalvig ah8640
+        </h3>
+      </footer>
+
+        <script src = "slideshowJS.js"></script>
+        </div>
+    </body>
+</html>

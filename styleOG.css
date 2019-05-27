@@ -1,0 +1,246 @@
+#wrapper {
+  overflow: hidden;
+}
+
+.main-head {
+  background-color: lightgreen;
+}
+
+.main-nav{
+  background-color: green;
+}
+
+.main-content {
+  background-color: beige;
+}
+
+figure {
+  margin: 0;
+  padding: 0;
+}
+
+.main-text {
+  background-color: #ffffe0;
+  border: 1px solid lightgreen;
+
+}
+
+.main-textBig{
+  background-color: #ffffe0;
+  border: 1px solid lightgreen;
+}
+
+.main-footer {
+  background-color: green;
+}
+
+.site-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: auto;
+}
+
+.page a {
+  color: yellow;
+  text-decoration: none;
+}
+
+.page a:hover, a:focus {
+   background-color: darkorange;
+   color: white;
+}
+
+h1, h2, h3 {
+  text-align: center;
+  color: brown;
+}
+
+h1 {
+  font-size: 4vw;
+}
+
+h2{
+  font-size: 3vw;
+}
+
+h3 {
+  font-size: 2vw;
+}
+
+#sara {
+  width: 15vw;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.small {
+  max-width: 10vw;
+}
+
+
+@media screen and (max-width:480px){
+  body{
+    margin: 5px;
+  }
+
+  .hidden-sm {
+    display: none;
+    overflow: hidden;
+  }
+
+  .expanded {
+    display: block;
+    border: 1px solid #555;
+    text-align: center;
+    /* padding: 8px 16px; */
+    background-color: grey;
+  }
+
+  .expanded li {
+    border-bottom: 1px solid #555;
+      padding: 8px 16px;
+  }
+
+  .expanded li:last-child{
+    border-bottom: none;
+  }
+
+  .expanded a {
+    display: block;
+    text-decoration: none;
+    padding: 8px 16px;
+    }
+
+    h1, h2, h3 {
+      font-size: 5vw;
+    }
+
+    figure {
+      margin: 10px;
+      padding: 2px;
+    }
+
+}
+
+
+/* Egenskaper för tablets */
+@media (min-width: 480px) and ( max-width: 1024px) {
+
+  .main-head, .main-nav, .main-content, .main-footer{
+    padding: 10px;
+    margin-bottom: 5px;
+  }
+
+  .main-head{
+    position: fixed;
+    width: 20%;
+    height: 10%;
+
+  }
+
+
+  .main-nav{
+    position: fixed;
+    width: 20%;
+    top: 14%;
+    bottom: 10%;
+
+  }
+
+  .main-content{
+      width: 75%;
+      float: right;
+      padding: 5px;
+  }
+
+  .main-text {
+margin:2%;
+padding: 2%;
+   width: 38%;
+   float: left;
+ }
+
+ .main-textBig {
+   width: 95%;
+   margin: 2%;
+  float: right;
+ }
+  .main-footer{
+    position: fixed;
+    width: 20%;
+    height: 10%;
+    top: 90%;
+    padding-bottom: 10px;
+  }
+
+  li {
+      padding: 8px 16px;
+  }
+
+  h1 {
+    font-size: 3vw;
+  }
+
+
+ #add-item {
+   display: none;
+ }
+
+}
+
+
+
+/* Egenskaper för datorer  */
+
+@media (min-width: 1025px) {
+
+  .main-head, .main-nav, .main-content, .main-footer {
+      padding: 10px;
+      margin-bottom: 5px;
+  }
+
+  .main-head {
+      height: 10%;
+  }
+
+  h1 {
+      font-size: 50px;
+  }
+
+  .main-nav {
+      height: 10%;
+      text-align: center;
+  }
+
+  .main-content {
+      width: auto;
+      min-height: 1000px;
+  }
+
+
+
+  .nain-footer {
+      height: 20%;
+  }
+
+  .site-menu {
+    display: inline-flex;
+  }
+
+
+
+  .page {
+    display: inline-flex;
+    text-align: center;
+    padding: 10px 100px;
+    text-decoration: none;
+  }
+
+#add-item {
+  display: none;
+}
+
+}

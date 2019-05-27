@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+  <html lang=sv>
+    <head>
+      <meta charset="utf-8">
+      <title>Inlämning 1 Hemsida</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link href="styleOG.css" rel="stylesheet" id = "pageTheme" >
+    </head>
+
+    <body>
+      <div id = "wrapper">
+
+        <header class = "main-head">
+          <h1>Inlämning 1 </h1>
+        </header>
+
+        <nav class = "main-nav">
+          <button type="button" id="add-item"><img src = "menuicon.png" alt = "Menu Button" class = "small"></button>
+          <ul class = "site-menu hidden-sm">
+            <li class = "page"><a href= "index.html"> Start </a></li>
+            <li class = "page"><a href = "movies.html"> Filmer </a></li>
+            <li class = "page"><a href = "slideshow.html"> Bildspel </a></li>
+            <li class = "page"> <select id = "themeMenu">
+              <option value = "styleOG.css"> Gräs </option>
+              <option value = "styleDark.css"> Moln </option>
+              <option value = "styleLight.css"> Godis </option>
+            </select>
+          </li>
+        </ul>
+      </nav>
+
+      <main class = "main-content">
+
+        <h2 id="h2">
+          Välkommen till min websida!
+        </h2>
+
+        <figure class = "main-text">
+          <h3> Presentation om mig </h3>
+          <p> Jag heter Sara Dalvig, går andra året på Malmö Universitets utbildning inom Datavetenskap och Applikationsutveckling.
+             Jag gillar lukten av nybakat bröd och ljudet av en nyöppnad öl.  </p>
+          <img id = "sara" src="sara.jpg" alt= "Bild på Sara med hjälm" >
+        </figure>
+
+
+        <figure class = "main-text">
+          <h3> Varför gör jag denna webbsidan? </h3>
+          <p> Jag går kursen Webbapplikationer för mobila enheter för att lära
+              mig om hur man effektivt bygger webbsidor till responsiva enheter, som datorer,
+              surfplator och mobiler. Vi använder oss av HTML, CSS och JS, för att förstå möjligheterna,
+            så väl som begränsningarna, som finns inom webbapplikationer. </p>
+        </figure>
+
+
+        <figure class = "main-textBig">
+          <h3> Tre saker som var utmanande </h3>
+          <ul>
+            <li> Responsiva layouter - svårt att få tablett layouten att lyda order </li>
+            <li> Att använda local storage för att ändra färg tema  </li>
+            <li> Lära mig att jobba endast på skolans datorer eftersom min laptop gick i sönder </li>
+          </ul>
+        </figure>
+
+      </main>
+
+
+
+      <footer class = "main-footer">
+        <h3>
+          Sara Dalvig ah8640
+        </h3>
+      </footer>
+
+
+      <script src = "indexJS.js"></script>
+      </div>
+    </body>
+</html>

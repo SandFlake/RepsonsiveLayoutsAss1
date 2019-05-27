@@ -1,0 +1,40 @@
+#wrapper {
+  overflow: hidden;
+}
+
+.main-head {
+  background-color: black;
+}
+
+.main-nav{
+  background-color: grey;
+}
+
+.main-content {
+  background-color: silver;
+  overflow: hidden;
+}
+
+.main-figure {
+  background-color: silver;
+}
+
+.main-text {
+  background-color: #686868;
+  border: 1px solid red;
+}
+
+.main-textBig{
+  background-color: #686868;
+  border: 1px solid red;
+
+}
+
+.main-footer {
+  background-color: black;
+}
+
+h1, h2, h3, h4 {
+text-align: center;
+color: white;
+}
